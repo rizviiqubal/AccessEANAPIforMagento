@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Rizvi_AccessEAN>
+            <active>true</active>
+            <codePool>local</codePool>
+
+        </Rizvi_AccessEAN>
+    </modules>
+</config>

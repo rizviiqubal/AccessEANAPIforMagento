@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+	<global>
+		<modules>
+                <rizvi_accessean>
+                        <version>0.1.0</version>
+                </rizvi_accessean>
+        </modules>
+	<blocks>
+            <accessean>
+                <rewrite>
+		 <accessean>Rizvi_AccessEAN_Block_List</accessean>
+		</rewrite>
+            </accessean>
+	 </blocks>
+ 
+        </global>
+	   <frontend>
+                <routers>
+                        <accessean>
+                                <use>standard</use>
+                                <args>
+                                      <module>Rizvi_AccessEAN</module>
+                                      <frontName>accessean</frontName>
+                                </args>
+                        </accessean>
+                </routers>
+		<layout>
+			<updates>
+				<accessean>
+		   		      <file>accessean.xml</file>
+				</accessean>
+			</updates>
+       		</layout>
+        </frontend>
+</config>

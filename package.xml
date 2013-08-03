@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rizvi</name>
+    <version>0.0.1</version>
+    <stability>devel</stability>
+    <license>GPL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Rizvi TVP</summary>
+    <description>Rizvi EAN API access for Hotel List</description>
+    <notes>sample</notes>
+    <authors><author><name>Rizvi</name><user>rizviiqubal</user><email>rizviiqubal@gmail.com</email></author></authors>
+    <date>2013-08-03</date>
+    <time>15:39:50</time>
+    <contents><target name="magelocal"><dir name="Rizvi"><dir name="AccessEAN"><dir name="Block"><file name="List.php" hash="b7f0643ca4b1f9a2f5d8e983ddb87235"/></dir><dir name="controllers"><file name="IndexController.php" hash="f549ec033193e440d543d78fea3c8854"/></dir><dir name="etc"><file name="config.xml" hash="b10cf8f778b913713c975b9953c507b1"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Rizvi_AccessEAN.xml" hash="863fe734852f77ee791f37fb43f4115d"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="accessean.xml" hash="231dd81896abf4d70ae3b5945bcdd744"/></dir><dir name="template"><dir name="accessean"><file name="accessean.phtml" hash="fa40fa3735bed01430cbe094ee8352a0"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.14</min><max>5.3.13</max></php></required></dependencies>
+</package>

@@ -1,0 +1,12 @@
+<style>
+ul.hotelList li {float:left;width:150px;height: 115px;text-align: center;border:1px solid #0a0; margin: 4px;vertical-align: central;padding: 10px}
+</style>
+<?php $_items = $this->getItems() ?>
+<ul class="hotelList">
+    <?php foreach ($_items as $_item): ?>
+<li><?php if($_item->thumbNailUrl != "") {?>
+    <img src="<?php echo $this->getImageDomain().$_item->thumbNailUrl;?>" /> 
+<?php }?>
+ <br><a href="<?php echo $_item->deepLink; ?>" target="_blank" ><?php echo $_item->name; ?></a></li>
+<?php endforeach; ?>
+</ul>

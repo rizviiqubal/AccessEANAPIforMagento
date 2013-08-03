@@ -1,0 +1,7 @@
+#Author Rizvi Iqubal
+#Access EAN API - A Sample Module for Magento Ecommerce - Retrieves Hotel List based on City
+#See here for more info data shown http://developer.ean.com/docs/hotel_list/examples/REST_Basic_Dateless_List
+
+# In Magento, after setting up the package, create a CMS page add the block tag as below
+# {{block type="accessean/accessean" name="hello" template="accessean/accessean.phtml"}}
+# Then access http://localhost/magento/index.php/<cms_page_name>
